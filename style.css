@@ -1,0 +1,67 @@
+
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  padding: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+body > div{
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 850px;
+  margin: auto;
+  padding: 80px;
+  border-radius: 10px;
+}
+header{
+  text-align: center;
+}
+img{
+  height: 80px;
+  width: 180px;
+}
+h1{
+  color: lime;
+  font-size: 20px;
+}
+nav{
+  text-align: center;
+  background-color: lime;
+  height: 33px;
+  padding: 5px;
+  margin-bottom: 15px;
+}
+button{
+  font-size: 9px;
+  margin: 0;
+}
+main{
+  color: white;
+  font-size: 11px;
+}
+h2{
+  display: inline-block;
+}
+.arrow:after{
+  content: "\21A6";
+}
+.carica{
+  height: 25px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+.gino{
+  background-color: goldenrod;
+  width: 250px;
+}
+.mike{
+  background-color: limegreen;
+  width: 400px;
+}
+.fede{
+  background-color: brown;
+  width: 100px;
+}
+*{
+  box-sizing: border-box;
+  margin: 3px;
+}
